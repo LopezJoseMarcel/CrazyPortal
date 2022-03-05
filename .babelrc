@@ -1,0 +1,8 @@
+{
+"presets": [
+    "@babel/preset-env" //Estó es lo que nos permite trabajar con JavaScript moderno y babel lo transpile a versiones entendibles para los navegadores.
+],
+"plugins": [
+    "@babel/plugin-transform-runtime" // ESTE ES MUY IMPORTANTE PARA LA CLASE. Este plugin nos permite trabajar con funciones asincronas(promesas, async/await, cb) Así que si vienes del curso de Webpack, recuerda utilizar estas configuraciones. Y si no lo has hecho. agrega estas configuraciones y espero te ayude
+]
+}
