@@ -15,6 +15,8 @@ Project repository of VanillaPages
 
 6. –save-dev : Permite instalar un conjunto de dependencia en la modalidad de desarrollo para el archivo packet jsom
 
+7. copy-webpack-plugin : Va a copiar nuestros estilos hacia la carpera dist
+
 ## Instalacion de babel
 
 1. npm i @babel/core @babel/preset-env @babel/runtime @babel/plugin-transform-runtime babel-loader -D
