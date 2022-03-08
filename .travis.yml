@@ -19,4 +19,4 @@ language: node_js
     target-branch: gh-pages
     commit_message: "Deploy Release"
     on:
-      branch: master
+      branch: main
